@@ -16,7 +16,7 @@ export default function BookCard({
       onPress={onPress}
       activeOpacity={0.8}
     >
-      {/* CAPA */}
+
       {book.image ? (
         <Image
           source={{ uri: book.image }}
@@ -30,7 +30,6 @@ export default function BookCard({
         </View>
       )}
 
-      {/* INFORMAÇÕES */}
       <View style={styles.info}>
         <Text
           style={styles.title}
@@ -71,7 +70,6 @@ export default function BookCard({
         </View>
       </View>
 
-      {/* SETA */}
       <Text style={styles.arrow}>
         ›
       </Text>
@@ -103,8 +101,6 @@ const styles = StyleSheet.create({
     elevation: 2,
   },
 
-  /* CAPA EM FORMATO DE LIVRO */
-
   cover: {
     width: 62,
     height: 88,
@@ -124,8 +120,6 @@ const styles = StyleSheet.create({
   placeholderIcon: {
     fontSize: 24,
   },
-
-  /* INFORMAÇÕES */
 
   info: {
     flex: 1,
