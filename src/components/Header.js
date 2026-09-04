@@ -1,9 +1,10 @@
 import {
-  StyleSheet,
-  Text,
-  TouchableOpacity,
-  View,
-} from 'react-native';
+StyleSheet,
+Text,
+TouchableOpacity,
+View,
+}
+  from 'react-native';
 
 export default function Header({
   title,

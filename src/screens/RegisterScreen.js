@@ -86,7 +86,7 @@ export default function RegisterScreen({
       ) {
         setImageRatio(
           selectedImage.width /
-            selectedImage.height
+          selectedImage.height
         );
       }
     }
@@ -209,7 +209,7 @@ export default function RegisterScreen({
 
         <View style={styles.formCard}>
 
-          {/* CAPA DO LIVRO */}
+
 
           <Text style={styles.imageLabel}>
             Capa do livro
@@ -217,7 +217,6 @@ export default function RegisterScreen({
 
           <View style={styles.coverSection}>
 
-            {/* IMAGEM */}
 
             <View style={styles.coverWrapper}>
               {image ? (
@@ -243,7 +242,6 @@ export default function RegisterScreen({
               )}
             </View>
 
-            {/* PARTE AO LADO DA CAPA */}
 
             <View style={styles.coverSide}>
 
